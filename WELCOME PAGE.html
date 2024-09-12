@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+        
+        header {
+            background-color: #FF69B4;
+	    color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        header nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+        }
+	.dropbtn {
+  	background-color: #FF69B4;
+  	color: white;
+  	padding: 16px;
+  	font-size: 16px;
+  	border: none;
+	}
+
+	.dropdown {
+  	position: relative;
+  	display: inline-block;
+	}
+
+	.dropdown-content {
+  	display: none;
+  	position: absolute;
+  	background-color: #f1f1f1;
+  	min-width: 160px;
+  	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  	z-index: 1;
+	}
+
+	.dropdown-content a {
+  	color: black;
+  	padding: 12px 16px;
+  	text-decoration: none;
+  	display: block;
+	}
+
+	.dropdown-content a:hover {background-color: #ddd;}
+
+	.dropdown:hover .dropdown-content {display: block;}
+
+	.dropdown:hover .dropbtn {background-color: #3e8e41;}
+        
+        header nav ul li {
+            margin-right: 20px;
+        }
+        
+        header nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        main section {
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        main h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        
+        main p {
+            margin-bottom: 20px;
+        }
+        
+        main button {
+            background-color: #FFC0CB;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        
+        main button:hover {
+            background-color: #C71585;
+        }
+        
+        footer {
+            background-color: #FF69B4;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+	
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+               	<div class="dropdown">
+  			<button class="dropbtn">Services</button>
+  			<div class="dropdown-content">
+    				<a href="#">Nails</a>
+    				<a href="#">Eyelashes</a>
+    				<a href="#">Hair Wash</a>
+				<a href="#">Beauty</a>
+    				<a href="#">Relaxing (Hair)</a>
+    				<a href="#">Hair Treatment</a>
+				<a href="#">Braids</a>
+    				<a href="#">Snoopy</a>
+    				<a href="#">Blocks</a>
+				<a href="#">Knotless Braids</a>
+    				<a href="#">Straight Back</a>
+    				<a href="#">Straight Up</a>
+  			</div>
+		</div>
+		<div class="dropdown">
+			<button class="dropbtn"> Contact </button>
+			<div class="dropdown-content">
+				<a href="#"> You can reach us at ☎️ : (061) 616-6280 or WhatsApp: (061) 616-6280 for more information </a>
+			</div> 
+		</div>
+	
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Welcome to Our Salon!</h1>
+            <p>Get ready to experience the best salon services in Umlazi!!</p>
+            <button><a href="https://sanechiliza.github.io/Syniqsalon/SALON.html">Syniq Beauty Salon Main Site</a></button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Salon Website</p>
+    </footer>
+</body>
+</html>
